@@ -96,23 +96,25 @@
 
 
 
-  <meta name="description" content="前端 Vue node.js nginx">
-<meta property="og:type" content="website">
-<meta property="og:title" content="try, then go on">
-<meta property="og:url" content="https://xt1995726.github.io/xtBlog/index.html">
+  <meta name="description" content="Just installed nginx, i found that the contents in configuration file have some difference   /etc/nginx/nginx.conf   The server item not in conf, after searched on the internet, the conf file has two">
+<meta name="keywords" content="nginx">
+<meta property="og:type" content="article">
+<meta property="og:title" content="nginx install">
+<meta property="og:url" content="https://xt1995726.github.io/xtBlog/2019/03/04/nginx-install/index.html">
 <meta property="og:site_name" content="try, then go on">
-<meta property="og:description" content="前端 Vue node.js nginx">
+<meta property="og:description" content="Just installed nginx, i found that the contents in configuration file have some difference   /etc/nginx/nginx.conf   The server item not in conf, after searched on the internet, the conf file has two">
 <meta property="og:locale" content="default">
+<meta property="og:updated_time" content="2019-03-04T03:07:25.080Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="try, then go on">
-<meta name="twitter:description" content="前端 Vue node.js nginx">
+<meta name="twitter:title" content="nginx install">
+<meta name="twitter:description" content="Just installed nginx, i found that the contents in configuration file have some difference   /etc/nginx/nginx.conf   The server item not in conf, after searched on the internet, the conf file has two">
 
 
 
 
 
 
-  <link rel="canonical" href="https://xt1995726.github.io/xtBlog/">
+  <link rel="canonical" href="https://xt1995726.github.io/xtBlog/2019/03/04/nginx-install/">
 
 
 
@@ -122,7 +124,7 @@
   };
 </script>
 
-  <title>try, then go on</title>
+  <title>nginx install | try, then go on</title>
   
 
 
@@ -170,8 +172,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-  page-home">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -213,7 +214,7 @@
         
         
           
-          <li class="menu-item menu-item-home menu-item-active">
+          <li class="menu-item menu-item-home">
 
     
     
@@ -377,9 +378,9 @@
           
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -411,10 +412,8 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/04/nginx-install/" class="post-title-link" itemprop="url">nginx install</a>
+          <h1 class="post-title" itemprop="name headline">nginx install
+
               
             
           </h1>
@@ -478,9 +477,7 @@
       
 
       
-        
-          
-            <p>Just installed <code>nginx</code>, i found that the contents in configuration file have some difference  </p>
+        <p>Just installed <code>nginx</code>, i found that the contents in configuration file have some difference  </p>
 <p><code>/etc/nginx/nginx.conf</code>  </p>
 <p>The <code>server</code> item not in conf, after searched on the internet, the conf file has two lines in <code>http</code> item.  </p>
 <p><code>include /etc/nginx/conf.d/*.conf;</code>  </p>
@@ -492,8 +489,6 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br></pre></td><td class="code"><pre><span class="line">##</span><br><span class="line"># You should look at the following URL&apos;s in order to grasp a solid understanding</span><br><span class="line"># of Nginx configuration files in order to fully unleash the power of Nginx.</span><br><span class="line"># http://wiki.nginx.org/Pitfalls</span><br><span class="line"># http://wiki.nginx.org/QuickStart</span><br><span class="line"># http://wiki.nginx.org/Configuration</span><br><span class="line">#</span><br><span class="line"># Generally, you will want to move this file somewhere, and start with a clean</span><br><span class="line"># file but keep this around for reference. Or just disable in sites-enabled.</span><br><span class="line">#</span><br><span class="line"># Please see /usr/share/doc/nginx-doc/examples/ for more detailed examples.</span><br><span class="line">##</span><br><span class="line"></span><br><span class="line"># Default server configuration</span><br><span class="line">#</span><br><span class="line">server &#123;</span><br><span class="line">    listen 80 default_server;</span><br><span class="line">    listen [::]:80 default_server;</span><br><span class="line"></span><br><span class="line">    # SSL configuration</span><br><span class="line">    #</span><br><span class="line">    # listen 443 ssl default_server;</span><br><span class="line">    # listen [::]:443 ssl default_server;</span><br><span class="line">    #</span><br><span class="line">    # Note: You should disable gzip for SSL traffic.</span><br><span class="line">    # See: https://bugs.debian.org/773332</span><br><span class="line">    #</span><br><span class="line">    # Read up on ssl_ciphers to ensure a secure configuration.</span><br><span class="line">    # See: https://bugs.debian.org/765782</span><br><span class="line">    #</span><br><span class="line">    # Self signed certs generated by the ssl-cert package</span><br><span class="line">    # Don&apos;t use them in a production server!</span><br><span class="line">    #</span><br><span class="line">    # include snippets/snakeoil.conf;</span><br><span class="line"></span><br><span class="line">    root /var/www/html;</span><br><span class="line"></span><br><span class="line">    # Add index.php to the list if you are using PHP</span><br><span class="line">    index index.html index.htm index.nginx-debian.html;</span><br><span class="line"></span><br><span class="line">    server_name _;</span><br><span class="line"></span><br><span class="line">    location / &#123;</span><br><span class="line">	    # First attempt to serve request as file, then</span><br><span class="line">	    # as directory, then fall back to displaying a 404.</span><br><span class="line">	    try_files $uri $uri/ =404;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000</span><br><span class="line">    #</span><br><span class="line">    #location ~ \.php$ &#123;</span><br><span class="line">    #	include snippets/fastcgi-php.conf;</span><br><span class="line">    #</span><br><span class="line">    #	# With php7.0-cgi alone:</span><br><span class="line">    #	fastcgi_pass 127.0.0.1:9000;</span><br><span class="line">    #	# With php7.0-fpm:</span><br><span class="line">    #	fastcgi_pass unix:/run/php/php7.0-fpm.sock;</span><br><span class="line">    #&#125;</span><br><span class="line"></span><br><span class="line">    # deny access to .htaccess files, if Apache&apos;s document root</span><br><span class="line">    # concurs with nginx&apos;s one</span><br><span class="line">    #</span><br><span class="line">    #location ~ /\.ht &#123;</span><br><span class="line">    #	deny all;</span><br><span class="line">    #&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"># Virtual Host configuration for example.com</span><br><span class="line">#</span><br><span class="line"># You can move that to a different file under sites-available/ and symlink that</span><br><span class="line"># to sites-enabled/ to enable it.</span><br><span class="line">#</span><br><span class="line">#server &#123;</span><br><span class="line">#	listen 80;</span><br><span class="line">#	listen [::]:80;</span><br><span class="line">#</span><br><span class="line">#	server_name example.com;</span><br><span class="line">#</span><br><span class="line">#	root /var/www/example.com;</span><br><span class="line">#	index index.html;</span><br><span class="line">#</span><br><span class="line">#	location / &#123;</span><br><span class="line">#		try_files $uri $uri/ =404;</span><br><span class="line">#	&#125;</span><br><span class="line">#&#125;</span><br></pre></td></tr></table></figure>
 <p>That we can found the default <code>server</code> item in Nginx.</p>
 
-          
-        
       
     </div>
 
@@ -514,158 +509,36 @@
 
     <footer class="post-footer">
       
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://xt1995726.github.io/xtBlog/2019/03/03/Hello-Hexo/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Chris X">
-      <meta itemprop="description" content="前端 Vue node.js nginx">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="try, then go on">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                
-                <a href="/2019/03/03/Hello-Hexo/" class="post-title-link" itemprop="url">Hello Hexo</a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2019-03-03 10:10:34 / Modified: 11:49:52" itemprop="dateCreated datePublished" datetime="2019-03-03T10:10:34+08:00">2019-03-03</time>
-            
-
-            
-              
-
-              
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/nginx/" rel="tag"># nginx</a>
           
-            
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>This is the first time i publish my personal blog, actually, i wanna do this for long time. I was not a industrious man, but i realise that i need to summarize my knowledge and myself, reunderstanding these things. Of course, this is a portion, the most proportion is that ‘<strong>embrace changes</strong>‘. Everything changed, some worse or some better, it is completely normal, but if we stand only, just say  “See how comfortable i am”, we will be leaved behind swiftly and imperilled.  Everything chaned, why not me?</p>
-<p>As for the reason that i use english to write blog, i’m not a <code>niubility</code> man, but i want to be.  : p</p>
-
-          
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-      
-    
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
       
 
       
       
-        <div class="post-eof"></div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/03/Hello-Hexo/" rel="next" title="Hello Hexo">
+                <i class="fa fa-chevron-left"></i> Hello Hexo
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
       
     </footer>
   </div>
@@ -675,14 +548,15 @@
   </article>
 
 
-    
-  </section>
-
-  
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -891,6 +765,10 @@
 
 
   
+  <script src="/js/src/scrollspy.js?v=7.0.1"></script>
+<script src="/js/src/post-details.js?v=7.0.1"></script>
+
+
 
   
 
@@ -901,6 +779,8 @@
   
   
 
+
+  
 
 
   
